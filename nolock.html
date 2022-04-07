@@ -8,6 +8,7 @@
             function PressKey(){
                 var objWs = new ActiveXObject("Wscript.Shell");
                 objWs.SendKeys("{SCROLLLOCK}");
+                objWs.SendKeys("{SCROLLLOCK}");
                 console.log("key pressed")
             }
             setInterval("PressKey()",60000);//按下按键的间隔时间ms。
